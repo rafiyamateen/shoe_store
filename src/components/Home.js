@@ -21,7 +21,7 @@ export const Home = () => {
             </h1>
             <div className='slider'>
                 <Zoom {...zoomInProperties} className='slides'>
-                    {images.map((each, index) => <img key={index} style={{ width: "100%" }} src={each} alt='shoes image' />)}
+                    {images.map((each, index) => <img key={index} style={{ width: "100%" }} src={each} alt='shoe store' />)}
                 </Zoom>
             </div>
         </div>
