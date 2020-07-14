@@ -53,9 +53,12 @@ body {
 .details p {
     font-size: 20px;
     color: rgb(54, 58, 61);
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .details h2 {
+    margin-top: 5px;
     margin-bottom: 80px;
     font-size: 22px;
     color: slateblue;
@@ -76,6 +79,7 @@ body {
 
 .details {
     margin-left: 30px;
+    align-self: center;
 }
 
 .home {
@@ -131,5 +135,11 @@ body {
     }
     .slides {
         width: 100%;
+    }
+    .details-div {
+        flex-direction: column;
+    }
+    .details h2 {
+        margin-bottom: 20px;
     }
 }
