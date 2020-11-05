@@ -14,7 +14,7 @@ export const ProductDetails = () => {
     return (
         <div className='details-div'>
             <div className='details-img'>
-                <img src={shoe.img} alt={shoe.name} />
+                <img src={require(`${shoe.img}`)} alt={shoe.name} />
             </div>
             <div className='details'>
                 <h1>{shoe.name}</h1>
