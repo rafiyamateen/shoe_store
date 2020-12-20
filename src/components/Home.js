@@ -14,6 +14,7 @@ export const Home = () => {
         indicators: true,
         scale: 1.4
     }
+    document.title="My Shoe Store";
     return (
         <div className='home'>
             <h1>

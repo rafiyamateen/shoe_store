@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Shoes from '../shoes.json';
 
 export const ProductItems = () => {
+    document.title = "My Shoe Store";
     return (
         <div className='main-div'>
             {Object.keys(Shoes).map((key) => {

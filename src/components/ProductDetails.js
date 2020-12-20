@@ -6,6 +6,7 @@ import { NotFound } from './NotFound';
 export const ProductDetails = () => {
     const { item } = useParams();
     const shoe = Shoes[item];
+    document.title = shoe.name;
     if (!shoe) {
         return (
             <NotFound />
